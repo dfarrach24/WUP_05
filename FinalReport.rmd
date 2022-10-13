@@ -146,4 +146,8 @@ In the Chi-Squared Test The p-value is 0.00007686 which is smaller than 0.05, so
 Report on both Drug Users and Females.  Be sure to include the odds for both groups.
 -->
 
+
+1. Based on the following, it demonstrates drug users who have received the treatment vaccine are less susceptible to get infected with AIDS. The vaccine is effective for drug users. We reject the null hypothesis.
+
+2. Based on the following, it demonstrates females who have received the treatment vaccine are more susceptible to get infected with AIDS. The vaccine is not effective for females. We reject the null hypothesis. 
  
