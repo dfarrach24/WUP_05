@@ -109,6 +109,24 @@ barchartGC(~treatment + infected,data=Females, type="percent")
 Females treated with the vaccine are more susceptible to get AIDS. 
 
 
+### Numerical Descriptive Results
+
+<!--Numerical results go here. Use the numerical results to describe the patterns, if any, that exist in the data as focused toward the research question!-->
+
+
+```{r}
+table1 <- xtabs(~treatment + infected, data=Females)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+Among all females who were infected with AIDS, 58% of them had received the vaccine and 48% of those who were infected received the placebo. This suggests females who received the vaccine were more susceptible to get AIDS.   
+
+
+
+
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the George Town videos collection.!
