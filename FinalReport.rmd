@@ -22,9 +22,6 @@ A new  preventative aids drug (triUmpsal) is under test in clinical trials. Cons
 
 <!-- Be sure to produce Descriptive Results and Inferential Results for both groups. !-->
 
-# Methods
-
-<!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed, for example sub-setting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 
 1. Is the drug effective for Drug Users?
@@ -38,6 +35,12 @@ $H_A$: There is a significant difference of effectiveness in drug users.
 $H_0$ : There is no effectiveness in the vaccine for females.  
 $H_A$: There is a significant difference in effectiveness in the vaccine for Females.  
 
+
+# Methods
+
+<!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed, for example sub-setting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
+
+The helper file being used to determine the effectiveness of drug use in drug users and vaccines for Females is CAT~ CAT
 
 # Results
 
@@ -56,7 +59,7 @@ barchartGC(~infected + treatment,data=Drugees, type="percent")
 ```
 
 
-
+The graphical discriptive results show that 
 
 
 
