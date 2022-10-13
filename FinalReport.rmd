@@ -9,6 +9,8 @@ output: html_document
 require(tidyverse)
 require(tigerstats)
 triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
+Drugees=filter(triUmp,DrugUser=="yes")
+Females=filter(triUmp,gender=="F")
 ```
 
 # Introduction
@@ -46,6 +48,20 @@ $H_A$: There is a significant difference in effectiveness in the vaccine for Fem
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe patterns, if any, that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming to or departing from what is expected by the null hypothesis !-->
+
+```{r}
+barchartGC(~infected + treatment,data=Drugees)
+barchartGC(~infected + treatment,data=Drugees, type="percent")
+
+```
+
+
+
+
+
+
+
+
 
 ### Numerical Descriptive Results
 
