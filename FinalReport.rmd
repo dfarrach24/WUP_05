@@ -18,13 +18,6 @@ triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 A new  preventative aids drug (triUmpsal) is under test in clinical trials. Consider the DrugUsers, does this drug seem effective on this group?  Hint - use dplyr to obtain that sub-population with the filter command.  Next, repeat the analysis on just females, does this drug seem effective on women?
 
 
-$H_0$: There is no difference in the drug  effectiveness in drug users.  
-$H_A$: There is a significant difference of effectiveness in drug users. 
-
-$H_0$ : There is no effectiveness in the vaccine for females.  
-$H_A$: There is a significant difference in effectiveness in the vaccine for Females.   
-
-
 <!-- Be sure to produce Descriptive Results and Inferential Results for both groups. !-->
 
 # Methods
@@ -32,7 +25,16 @@ $H_A$: There is a significant difference in effectiveness in the vaccine for Fem
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed, for example sub-setting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 
+1. Is the drug effective for Drug Users?
 
+$H_0$: There is no difference in the drug  effectiveness in drug users.  
+$H_A$: There is a significant difference of effectiveness in drug users. 
+
+
+2. Is the vaccine effective for women?
+
+$H_0$ : There is no effectiveness in the vaccine for females.  
+$H_A$: There is a significant difference in effectiveness in the vaccine for Females.  
 
 
 # Results
