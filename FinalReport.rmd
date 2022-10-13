@@ -59,11 +59,7 @@ barchartGC(~infected + treatment,data=Drugees, type="percent")
 ```
 
 
-The graphical discriptive results show that 
-
-
-
-
+The graphical descriptive results show that Drug users treated with the vaccine are less likely to get AIDS. 
 
 
 ### Numerical Descriptive Results
