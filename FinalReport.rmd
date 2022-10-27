@@ -52,6 +52,9 @@ The helper file being used to determine the effectiveness of drug use in drug us
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe patterns, if any, that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming to or departing from what is expected by the null hypothesis !-->
 
+
+
+### Drug users
 ```{r}
 barchartGC(~infected + treatment,data=Drugees)
 barchartGC(~infected + treatment,data=Drugees, type="percent")
@@ -59,7 +62,7 @@ barchartGC(~infected + treatment,data=Drugees, type="percent")
 ```
 
 
-The graphical descriptive results show that Drug users treated with the vaccine are less likely to get AIDS. 
+The graphical descriptive results show that  Drug users treated with the vaccine are 4 times less likely to get AIDS. 
 
 
 ### Numerical Descriptive Results
@@ -73,7 +76,7 @@ colPerc(table1)
 ```
 
 
-Among all drug users who were infected with AIDS, 24% of them had received the vaccine and 47% of those who were infected received the placebo. This suggests drug users who received the vaccine were less likely to get AIDS. 
+Among all drug users who were infected with AIDS, 24% of them had received the vaccine and about 76% of those who were infected received the placebo. This suggests drug users who received the vaccine were less likely to get AIDS. 
 
 
 
@@ -90,8 +93,7 @@ fisher.test(table1)
   
 The p-value is 0.0000001242 which is smaller than 0.05, so we reject the null hypothesis. This shows the vaccine is effective in the drug user community.  
 
-  
-
+Among those who did not received the treatment drug, they are about 0.35 times more likely to contract aids, than those who recieved treatment. 
 
 ## Descriptive Results for Females
 
@@ -101,8 +103,8 @@ The p-value is 0.0000001242 which is smaller than 0.05, so we reject the null hy
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe patterns, if any, that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming to or departing from what is expected by the null hypothesis !-->
 
 ```{r}
-barchartGC(~treatment + infected,data=Females)
-barchartGC(~treatment + infected,data=Females, type="percent")
+barchartGC(~infected + treatment,data=Females)
+barchartGC(~infected + treatment,data=Females, type="percent")
 
 ```
 
@@ -137,6 +139,8 @@ fisher.test(table1)
 
 
 In the Chi-Squared Test The p-value is 0.00007686 which is smaller than 0.05, so we reject the null hypothesis. In the Fisher test the p-value is p-value = 6.596e-05. This shows the vaccine is not effective in the female community.
+
+if you are a woman you are 1.54 times more likely to contract AIDS if you took placebo than those if you got the vaccine. 
 
 
 # Discussion and Conclusion
