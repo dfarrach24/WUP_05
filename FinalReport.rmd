@@ -26,7 +26,7 @@ A new  preventative aids drug (triUmpsal) is under test in clinical trials. Cons
 
 1. Is the drug effective for Drug Users?
 
-$H_0$: There is no difference in the drug  effectiveness in drug users.  
+$H_0$: The drug has no effect for drug users.   
 $H_A$: There is a significant difference of effectiveness in drug users. 
 
 
@@ -138,9 +138,11 @@ fisher.test(table1)
 ```
 
 
-In the Chi-Squared Test The p-value is 0.00007686 which is smaller than 0.05, so we reject the null hypothesis. In the Fisher test the p-value is p-value = 6.596e-05. This shows the vaccine is not effective in the female community.
+In the Chi-Squared Test The p-value is 0.00007686 which is smaller than 0.05, so we reject the null hypothesis. 
 
-if you are a woman you are 1.54 times more likely to contract AIDS if you took placebo than those if you got the vaccine. 
+In the Fisher test the p-value is p-value is . This shows the vaccine is not effective in the female community.
+
+The data in the Fisher's Exact Test reflects that woman are 1.54 times more likely to contract AIDS if you took placebo than those if you got the vaccine. 
 
 
 # Discussion and Conclusion
@@ -151,7 +153,7 @@ Report on both Drug Users and Females.  Be sure to include the odds for both gro
 -->
 
 
-1. Based on the following, it demonstrates drug users who have received the treatment vaccine are less susceptible to get infected with AIDS. The vaccine is effective for drug users. We reject the null hypothesis.
+1.Based on the following, it demonstrates drug users who have received the treatment vaccine are less susceptible to get infected with AIDS. The vaccine is effective for drug users. We reject the null hypothesis.
 
-2. Based on the following, it demonstrates females who have received the treatment vaccine are more susceptible to get infected with AIDS. The vaccine is not effective for females. We reject the null hypothesis. 
+2.Based on the following, it demonstrates females who have received the treatment vaccine are more susceptible to get infected with AIDS. The vaccine is not effective for females. We reject the null hypothesis. 
  
